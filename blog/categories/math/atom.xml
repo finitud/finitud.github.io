@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Finite musings]]></title>
-  <link href="http://finitud.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Math | Finite musings]]></title>
+  <link href="http://finitud.github.io/blog/categories/math/atom.xml" rel="self"/>
   <link href="http://finitud.github.io/"/>
   <updated>2014-05-10T23:32:09+01:00</updated>
   <id>http://finitud.github.io/</id>
@@ -22,9 +22,9 @@
 
 <p>It will contain code</p>
 
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-</pre></td><td class="code"><pre><code class="cl"><span class="line"><span class="p">(</span><span class="nv">foo</span> <span class="nv">bar</span><span class="p">)</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p><code>cl
+(foo bar)
+</code></p>
 ]]></content>
   </entry>
   

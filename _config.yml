@@ -3,9 +3,9 @@
 # ----------------------- #
 
 url: http://finitud.github.io
-title: finitud
-subtitle: Math, software, ham radio, and other stuff
-author: Ruben Martin
+title: Finite musings
+subtitle: Math, computers, ham radio, and stuff
+author: wyan
 simple_search: https://www.google.com/search
 description:
 
@@ -69,7 +69,7 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: wyan
 twitter_tweet_button: true
 
 # Google +1

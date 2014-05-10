@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[finitud]]></title>
+  <link href="http://finitud.github.io/atom.xml" rel="self"/>
+  <link href="http://finitud.github.io/"/>
+  <updated>2014-05-10T22:45:33+01:00</updated>
+  <id>http://finitud.github.io/</id>
+  <author>
+    <name><![CDATA[Ruben Martin]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>

@@ -8,9 +8,12 @@ categories:
 ---
 
 This is my blog. There are $\aleph_0$ others like it, but this is mine...
+<!-- more -->
 
 It will contain code
 
 ``` cl
 (foo bar)
 ```
+
+and other things.

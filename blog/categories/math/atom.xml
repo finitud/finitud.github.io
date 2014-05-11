@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Math | Finite musings]]></title>
   <link href="http://finitud.github.io/blog/categories/math/atom.xml" rel="self"/>
   <link href="http://finitud.github.io/"/>
-  <updated>2014-05-11T20:27:46+01:00</updated>
+  <updated>2014-05-11T22:20:24+01:00</updated>
   <id>http://finitud.github.io/</id>
   <author>
     <name><![CDATA[wyan]]></name>
@@ -18,7 +18,8 @@
     <link href="http://finitud.github.io/blog/2014/05/10/there-shall-be-math/"/>
     <updated>2014-05-10T22:51:50+01:00</updated>
     <id>http://finitud.github.io/blog/2014/05/10/there-shall-be-math</id>
-    <content type="html"><![CDATA[<p>This is my blog. There are $\aleph_0$ others like it, but this is mine…</p>
+    <content type="html"><![CDATA[<p>This is my blog. There are $\aleph_0$ others like it, but this is mine…
+<!-- more --></p>
 
 <p>It will contain code</p>
 
@@ -26,7 +27,7 @@
 (foo bar)
 </code></p>
 
-<p>and <!-- more --> other things.</p>
+<p>and other things.</p>
 ]]></content>
   </entry>
   

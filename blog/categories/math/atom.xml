@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Math | Finite musings]]></title>
   <link href="http://finitud.github.io/blog/categories/math/atom.xml" rel="self"/>
   <link href="http://finitud.github.io/"/>
-  <updated>2014-05-11T19:17:37+01:00</updated>
+  <updated>2014-05-11T20:27:46+01:00</updated>
   <id>http://finitud.github.io/</id>
   <author>
     <name><![CDATA[wyan]]></name>
@@ -25,6 +25,8 @@
 <p><code>cl
 (foo bar)
 </code></p>
+
+<p>and <!-- more --> other things.</p>
 ]]></content>
   </entry>
   

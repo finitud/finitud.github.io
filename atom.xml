@@ -4,7 +4,7 @@
   <title><![CDATA[Finite musings]]></title>
   <link href="http://finitud.github.io/atom.xml" rel="self"/>
   <link href="http://finitud.github.io/"/>
-  <updated>2014-05-30T20:21:41+01:00</updated>
+  <updated>2014-05-30T20:22:49+01:00</updated>
   <id>http://finitud.github.io/</id>
   <author>
     <name><![CDATA[wyan]]></name>
@@ -61,24 +61,6 @@ cheap quality and expensive price, a speculator’s dream. But no place for slow
 <p>I miss studying. I miss the academic freedom and being able to think about things.
 I don’t know how to recover these in the most expensive city in several thousand miles.</p>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[There Shall Be Math]]></title>
-    <link href="http://finitud.github.io/blog/2014/05/10/there-shall-be-math/"/>
-    <updated>2014-05-10T22:51:50+01:00</updated>
-    <id>http://finitud.github.io/blog/2014/05/10/there-shall-be-math</id>
-    <content type="html"><![CDATA[<p>This is my blog. There are $\aleph_0$ others like it, but this is mine…
-<!-- more --></p>
-
-<p>It will contain code</p>
-
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-</pre></td><td class="code"><pre><code class="cl"><span class="line"><span class="p">(</span><span class="nv">foo</span> <span class="nv">bar</span><span class="p">)</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<p>and other things.</p>
 ]]></content>
   </entry>
   

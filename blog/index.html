@@ -9,8 +9,8 @@
   <meta name="author" content="wyan">
 
   
-  <meta name="description" content="I am considering moving again. The flat I moved into three months ago is nice enough
-for one, but it seems that lacking a living room puts people off &hellip;">
+  <meta name="description" content="As I started blogging again with Spotify on the background, I noticed how annoying
+the audible bell is. Of course, there is a variable visible-bell &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +74,58 @@ for one, but it seems that lacking a living room puts people off &hellip;">
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2014/05/30/removing-the-bell-on-emacs/">Removing the Bell on Emacs</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-05-30T21:26:24+01:00" pubdate data-updated="true">May 30<span>th</span>, 2014</time>
+        
+           | <a href="/blog/2014/05/30/removing-the-bell-on-emacs/#disqus_thread"
+             data-disqus-identifier="http://finitud.github.io/blog/2014/05/30/removing-the-bell-on-emacs/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>As I started blogging again with Spotify on the background, I noticed how annoying
+the audible bell is. Of course, there is a variable <code>visible-bell</code> which toggles
+between the audible and the visible bell. The visible bell in OS X is an ugly square
+that appears over the Emacs window, and which is pretty much useless.</p>
+
+<p>Fortunately there is yet another variable <code>ring-bell-function</code> which, if non-<code>nil</code>,
+will be called as a function instead of showing/ringing the bell. So all I need
+to set the bell to a reasonable value is:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class="cl"><span class="line"><span class="c1">;;; Turn audible and visible bells off</span>
+</span><span class="line"><span class="p">(</span><span class="k">setq</span> <span class="nv">ring-bell-function</span> <span class="p">(</span><span class="k">lambda</span> <span class="p">()))</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2014/05/30/should-i-stay-or-should-i-go/">Should I Stay or Should I Go</a></h1>
     
     
@@ -91,6 +143,9 @@ for one, but it seems that lacking a living room puts people off &hellip;">
 
 
 <time datetime="2014-05-30T18:32:17+01:00" pubdate data-updated="true">May 30<span>th</span>, 2014</time>
+        
+           | <a href="/blog/2014/05/30/should-i-stay-or-should-i-go/#disqus_thread"
+             data-disqus-identifier="http://finitud.github.io/blog/2014/05/30/should-i-stay-or-should-i-go/">Comments</a>
         
       </p>
     

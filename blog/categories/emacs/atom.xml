@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Emacs | Finite musings]]></title>
+  <link href="http://finitud.github.io/blog/categories/emacs/atom.xml" rel="self"/>
+  <link href="http://finitud.github.io/"/>
+  <updated>2014-05-30T21:53:02+01:00</updated>
+  <id>http://finitud.github.io/</id>
+  <author>
+    <name><![CDATA[wyan]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Removing the Bell on Emacs]]></title>
+    <link href="http://finitud.github.io/blog/2014/05/30/removing-the-bell-on-emacs/"/>
+    <updated>2014-05-30T21:26:24+01:00</updated>
+    <id>http://finitud.github.io/blog/2014/05/30/removing-the-bell-on-emacs</id>
+    <content type="html"><![CDATA[<p>As I started blogging again with Spotify on the background, I noticed how annoying
+the audible bell is. Of course, there is a variable <code>visible-bell</code> which toggles
+between the audible and the visible bell. The visible bell in OS X is an ugly square
+that appears over the Emacs window, and which is pretty much useless.</p>
+
+<p>Fortunately there is yet another variable <code>ring-bell-function</code> which, if non-<code>nil</code>,
+will be called as a function instead of showing/ringing the bell. So all I need
+to set the bell to a reasonable value is:</p>
+
+<p><code>cl
+;;; Turn audible and visible bells off
+(setq ring-bell-function (lambda ()))
+</code></p>
+]]></content>
+  </entry>
+  
+</feed>
